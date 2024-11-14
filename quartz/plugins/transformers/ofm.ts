@@ -248,8 +248,6 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
             "\n" +
             prop_links +
             "\n" +
-            opts.delims +
-            "\n" +
             content
         }
       }
