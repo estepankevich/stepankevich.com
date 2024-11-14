@@ -1,3 +1,79 @@
 @use "./base.scss";
-
+@use "./variables.scss" as *;
 // put your custom CSS here!
+
+header {
+    margin-bottom: 0;
+}
+
+.backlinks > .overflow {
+    height: auto !important;
+}
+
+.page>#quartz-body .left.sidebar {
+    padding-top: 25px;
+    gap: 2.7rem;
+}
+
+footer {
+    margin: 3rem 0 0.5rem 0;
+    justify-content: space-between;
+    align-items: center;
+  
+    & ul,p {
+      gap: 0.5rem;
+    }
+
+    & p {
+        float: right;
+        margin: 0;
+    }
+  }
+
+article > ul:first-child {
+    padding-left: 0;
+
+    & li {
+         display: block; 
+    } 
+} 
+
+.search {
+    position: absolute;
+    top: 25px; 
+    right: 65px;      
+    width: 85%;
+    z-index: 1000;
+    
+}
+
+.darkmode {
+    position: absolute;
+    right: 32px;       
+    top: 30px;
+    margin: 0; 
+    z-index: 1000;   
+}
+
+@media all and ($mobile) {
+    .footer {
+        display: none
+    }
+
+    .article {
+        width : 98%
+    }
+
+    .page-title {
+        width: 70%;
+    }
+
+    .search {
+        width: 7%;
+    }
+
+    .search .search-button > p {
+        display: none;
+    }
+}
+ 

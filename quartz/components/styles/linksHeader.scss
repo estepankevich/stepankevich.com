@@ -2,12 +2,12 @@
 
 header {
   display: block;
-  margin-top: 1rem;
+  margin-top: 0rem;
 }
 
 #links-header {
-  font-size: 1.2em;
-  margin: 0 0.2em;
+  font-size: 0.95rem;
+  margin: 0 0.2em 
   /*display: flex;*/
   /*flex-flow: row wrap;*/
   /*justify-content: flex-start;*/
@@ -22,11 +22,15 @@ header {
 
   a.links-header-item {
     display: inline-block;
-    padding: 10px 15px;
+    padding: 10px 30px 10px 0px;
     box-sizing: border-box;
     /*width: 20%;*/
 /*remove flex-box on MMW LinksHeader */
   }  
+
+  a.links-header-item:first {
+    padding-left: 0;
+  }
 }
 
 #links-header-container {
@@ -35,15 +39,13 @@ header {
   }
 }
 
-@media screen and (max-width: $mobileBreakpoint) {
-  #links-header {
+#links-header {
     display: block;
-    overflow: scroll;
+    overflow-x: auto; 
     white-space: nowrap;
-  
-    & a.links-header-item {
-      box-sizing: unset;
-      width: unset;
-    }
-  }
+}
+
+#links-header a.links-header-item {
+    box-sizing: border-box; 
+    width: auto; 
 }
