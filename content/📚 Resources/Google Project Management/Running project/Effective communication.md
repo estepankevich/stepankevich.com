@@ -1,0 +1,15 @@
+---
+tags:
+  - Google_Project_Management
+  - Communication
+  - Team_Leader
+  - Team
+---
+- Messaging and emails
+   - Clearly state action, importance, date
+   - Interesting to ask the preferred communication method 
+- Meeting 
+   - Structured (timebox)
+   - Intentional (Objective and Agenda)
+   - Collaborative 
+   - Inclusive (encourage and value participation)

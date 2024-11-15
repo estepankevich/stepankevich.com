@@ -1,0 +1,24 @@
+---
+tags:
+  - Google_Project_Management
+  - Communication
+  - Team_Leader
+  - Team
+  - Meeting
+---
+- kick-off
+	- alignment on the goals
+- status update
+	- regular
+	- align the team on updates, progress, challenges, next steps
+	- schedule status
+	- changes 
+	- keep the project on track 
+- stakeholder reviews
+	- Project update
+	- Seek and listen for feedback
+	- Make a decision or resolve a major issue
+- project review 
+	- Lessons learned 
+	- What to improve
+	- Celebration 

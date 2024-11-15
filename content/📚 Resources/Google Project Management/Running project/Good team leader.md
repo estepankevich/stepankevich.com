@@ -1,0 +1,30 @@
+---
+tags:
+  - Google_Project_Management
+  - Leadership
+  - Team
+  - Team_Leader
+---
+- Create systems to turn chaos into order
+- Communicate and listen
+- Promote trust and psychological safety
+	- Make clear that members input are important
+	- Encourage expression, if quite people, take coffee with them or discuss during 1to1
+	- Foster a culture of respect
+	- Create equal opportunity to succeed : 
+		- Regular communication
+		- Accessible documentation
+		- Regular check-ins with the team
+- Demonstrate empathy 
+	- Being present
+	- Being curious 
+- Create motivation
+	- Praise and recognize good work
+	- Promote and show quality work across the whole team / company
+- Delegate responsibility and prioritize
+	- Know the priorities
+	- Find people that may enjoy this task
+	- Delegate small tasks to junior members
+- Celebrate team success 
+	- Appreciation 
+- Influence without authority 
