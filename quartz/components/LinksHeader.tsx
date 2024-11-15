@@ -13,7 +13,7 @@ export default (() => {
             <a class="links-header-item" href="/🌍-Blog/">
             🌍 Blog</a>        
             <a class="links-header-item" href="/🌐-Topics/">
-            🌍 Topics</a>    
+            🌐 Topics</a>    
             <a class="links-header-item" href="/📂-Areas/">
             📂 Areas</a>     
             <a class="links-header-item" href="/📚-Resources/">
