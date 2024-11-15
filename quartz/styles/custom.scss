@@ -55,6 +55,33 @@ article > ul:first-child {
     z-index: 1000;   
 }
 
+.welcome {
+  display: flex;
+  justify-content: center;
+}
+
+.welcome p,img {
+    padding: 10px;
+}
+
+.welcome img {
+    max-width: 30%;
+    height: auto;
+    object-fit: contain;
+}
+
+@media all and not ($mobile) {
+.page > #quartz-body .page-header{
+    margin-top: 4rem;
+}
+}
+
+@media all and ($desktop) {
+    .page > #quartz-body .page-header{
+        margin-top: 20px;
+    }
+}
+
 @media all and ($mobile) {
     .footer {
         display: none
