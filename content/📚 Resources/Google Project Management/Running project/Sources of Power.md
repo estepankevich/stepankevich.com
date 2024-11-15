@@ -1,0 +1,25 @@
+---
+tags:
+  - Google_Project_Management
+  - Influence
+  - Communication
+  - Leadership
+---
+- Organisational
+	- Role
+	- Information
+	- Network
+	- Reputation
+		- How other perceive you 
+		- Good collaboration improves reputation
+- Personal 
+	- Knowledge
+	- Expressiveness
+		- Ability to communicate
+		- Very important to influence others
+	- History
+		- Personal history between me and others
+		- For example conversations during the lunch
+	- Character
+		- Others people view of my quality 
+			- Ex : honesty, consistency

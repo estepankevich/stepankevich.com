@@ -1,0 +1,22 @@
+---
+tags:
+  - Google_Project_Management
+  - Presentation
+  - Public_speaking
+---
+- Be precise
+	- Identify the problem
+	- Get clear on your goals and the purpose of your presentation
+	- Remove not useful content
+- Be flexible
+	- Be prepared to finish it shortly
+	- Share the presentation and present it to the team
+- Be memorable
+	- Use stories
+	- Posture
+	- Voice
+	- Pace
+		- Be mindful of clues from your audience and adjust accordingly
+	- Eye contact
+	- Warm and friendly facial expression
+	- Have confidence

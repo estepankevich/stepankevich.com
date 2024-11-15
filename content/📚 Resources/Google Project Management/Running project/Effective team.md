@@ -1,0 +1,15 @@
+---
+tags:
+  - Google_Project_Management
+---
+- Psychological safety
+	- Safe to take risks
+	- Need to be direct and kind
+- Dependability
+	- Reliable and complete work on time
+- Structure and clarity
+	- Individual understanding of expectations and how to meet them and consequences of their performance
+- Meaning
+	- Sense of purpose in the work or in the results of the work
+- Impact
+	- Belief that work results matter
