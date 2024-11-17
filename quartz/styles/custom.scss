@@ -72,6 +72,14 @@ article > ul:first-child {
     object-position: top;
 }
 
+.recent-ul {
+    padding: 0;
+}
+
+.recent-li {
+    display: block;
+}
+
 @media all and not ($mobile) {
 .page > #quartz-body .page-header{
     margin-top: 4rem;
