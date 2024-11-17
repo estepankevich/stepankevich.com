@@ -5,7 +5,8 @@ categories:
 subtitle: ""
 author:
   - Friedrich Durrenmatt
-category: 
+category:
+  - Tragicomedy
 publisher: 
 publish: 1962
 total: 110
@@ -14,7 +15,7 @@ cover: http://books.google.com/books/content?id=A3EmAH4pdTEC&printsec=frontcover
 localCover: Other/Attachments/The Visit - Friedrich Durrenmatt.jpg
 status: "[[Unread]]"
 created: 2024-11-12 16:14:34
-updated: 2024-11-14 21:10
+updated: 2024-11-17 23:35
 ---
 
 ![[Other/Attachments/The Visit - Friedrich Durrenmatt.jpg|150]]
