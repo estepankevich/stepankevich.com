@@ -62,12 +62,14 @@ article > ul:first-child {
 
 .welcome p,img {
     padding: 10px;
+    padding-left: 0;
 }
 
 .welcome img {
     max-width: 30%;
     height: auto;
     object-fit: contain;
+    object-position: top;
 }
 
 @media all and not ($mobile) {
