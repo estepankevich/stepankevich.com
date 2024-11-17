@@ -13,13 +13,13 @@ publish: 1996-11-27
 total: 612
 isbn: 9780345409874
 cover: http://books.google.com/books/content?id=TwrR-BPlfekC&printsec=frontcover&img=1&zoom=1&source=gbs_api
-localCover: Other/Attachments/Women Who Run with the Wolves - Clarissa Pinkola Estés Phd.jpg
+localCover: Other/Attachments/Pasted image 20241117220805.png
 status: "[[Completed]]"
 created: 2024-11-14 20:15:36
-updated: 2024-11-14 20:16
+updated: 2024-11-17 22:08
 ---
+![[Pasted image 20241117220805.png|100]]
 
-![[Other/Attachments/Women Who Run with the Wolves - Clarissa Pinkola Estés Phd.jpg|150]]
 Animales - одушевленное, имеющее душу
 Anima - воздух, душевное начало, душа
 Animus - дух, душа, страсть

@@ -1,6 +1,6 @@
 ---
 created: 2024-11-11 13:38
-updated: 2024-11-15 16:04
+updated: 2024-11-17 23:36
 share: true
 ---
 
@@ -48,6 +48,8 @@ share: true
 - [[Convex Function|Convex Function]]
 - [[Lᵖ Norm|Lᵖ Norm]]
 - [[Orthogonal Projection in a Hilbert Space|Orthogonal Projection in a Hilbert Space]]
+- [[Jacobian Matrix|Jacobian Matrix]]
+- [[Hessian matrix|Hessian matrix]]
 
 
 ## Theorems 
@@ -83,3 +85,4 @@ share: true
 - [[Minkowski's Inequality|Minkowski's Inequality]]
 - [[Monotone Convergence Theorem|Monotone Convergence Theorem]]
 - [[Fatou's Lemma|Fatou's Lemma]]
+- [[Chain Rule|Chain Rule]]

@@ -13,8 +13,9 @@ cover: http://books.google.com/books/content?id=FmyBAwAAQBAJ&printsec=frontcover
 localCover: Other/Attachments/Sapiens - Yuval Noah Harari.jpg
 status: "[[Completed]]"
 created: 2024-11-12 11:42:47
-updated: 2024-11-15 12:27
-links: false
+updated: 2024-11-17 23:28
+category:
+  - Antropology
 ---
 ![[Sapiens - Yuval Noah Harari.jpg|150]]
 
