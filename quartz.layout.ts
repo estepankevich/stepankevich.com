@@ -1,5 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { QuartzComponent } from "./quartz/components/types"
 
 
 // components shared across all pages
@@ -10,10 +11,21 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       "GitHub": "https://github.com/estepankevich",
-      "LinkedIn": "https://linkedin.com/in/estepankevich"
+      "LinkedIn": "https://linkedin.com/in/estepankevich",
+      "Scroll to top ↑": "#"
     },
   }),
 }
+
+export const recentPosts: QuartzComponent = 
+  Component.DesktopOnly(Component.RecentNotes({
+  title: "Recent posts",
+  limit: 3,
+  showTags: false,
+  filter: (file) => { 
+    return !!file.slug?.includes("🌍-Blog/");
+  }
+}))
 
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
@@ -31,7 +43,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.DesktopOnly(Component.Explorer({
       folderClickBehavior: "link"
-    }))
+    })),
+    recentPosts
   ],
   right: [
     Component.Search(),
@@ -54,7 +67,8 @@ export const defaultListPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.DesktopOnly(Component.Explorer({
       folderClickBehavior: "link"
-    }))
+    })),
+    recentPosts
   ],
   right: [
     Component.Search(),
