@@ -20,7 +20,11 @@ This site is a living project and is always evolving. Here's how it's organized:
 - [🌐 Topics](/🌐-Topics) - Pages that organize my notes by subject  
 - [📂 Areas](/📂-Areas) - Explorations of things I'm working on, these may vary in structure and detail, and may be in French or Russian
 - [📚 Resources](/📚-Resources) - A collection of the sources that inspire and inform me  
-- [🔖 Tags](/🔖-Tags) - A way to browse my notes and writings by keywords  
+- [🔖 Tags](/🔖-Tags) - A way to browse my notes and writings by keywords 
+
+Other useful links:
+- [📖 My Reading List](/📚-Resources/📖-Reading-List)
+- [❓ About this site](/🌍-Blog/About-this-site)
 
 <h2>Contact</h2>
 Feel free to get in touch using the links in the footer. I'd love to hear from you!
