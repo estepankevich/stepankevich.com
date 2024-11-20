@@ -34,10 +34,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
-    Component.MobileOnly(Component.TableOfContents({ 
-      showByDefault: false, 
-      collapseByDefault: true
-    }))
+    Component.TableOfContents()
   ],
   left: [
     Component.PageTitle(),
@@ -50,12 +47,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents({ 
-      showByDefault: false, 
-      collapseByDefault: true
-    }))
-  ],
-  afterBody: [
     Component.BacklinksCustom()
   ]
 }
