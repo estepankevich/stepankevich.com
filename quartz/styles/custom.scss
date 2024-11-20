@@ -56,21 +56,37 @@ article > ul:first-child {
 }
 
 .welcome {
-  display: flex;
-  justify-content: center;
-}
-
-.welcome p,img {
-    padding: 10px;
-    padding-left: 0;
-}
-
-.welcome img {
-    max-width: 30%;
+    display: flex;
+    gap: 20px; /* Space between the image and text */
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 30%; /* Adjust as needed */
+  }
+  
+  .image-container img {
+    max-width: 100%;
     height: auto;
     object-fit: contain;
     object-position: top;
-}
+  }
+  
+  .portrait-credit {
+    font-size: 0.8rem;
+    color: #8e8888;
+    text-align: center;
+    margin-top: -15px;
+  }
+  
+  .text-container {
+    max-width: 60%; /* Adjust as needed */
+  }
+  
+  .text-container p {
+    line-height: 1.6; /* Improve readability */
+  }
 
 .recent-ul {
     padding: 0;
