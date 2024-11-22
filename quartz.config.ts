@@ -14,7 +14,8 @@ const config: QuartzConfig = {
     enableSPA: false,
     enablePopovers: false,
     analytics: {
-      provider: "plausible",
+      provider: 'tinylytics', 
+      siteId: '6xJ7FRw_czrsY572zU6b' 
     },
     locale: "en-US",
     baseUrl: "stepankevich.com",
