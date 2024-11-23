@@ -1,106 +1,103 @@
 ---
-categories: 
+categories:
+  - "[[Data Science]]"
+  - "[[Definition]]"
 created: 2024-11-17 20:11
-updated: 2024-11-17 21:11
+updated: 2024-11-19 15:18
 ---
 **Definition**:  
-The **Rectified Linear Unit (ReLU)** is an activation function commonly used in neural networks. It is defined as:  
-$$\text{ReLU}(x) = \max(0, x)$$  
+The Rectified Linear Unit (ReLU) activation function is defined as:  
+$$
+\text{ReLU}(x) = \max(0, x)
+$$  
+---
 
-For an input $x \in \mathbb{R}$:  
-- If $x > 0$, $\text{ReLU}(x) = x$.  
-- If $x \leq 0$, $\text{ReLU}(x) = 0$.  
+### **Properties**  
+1. **Piecewise Linear**:  
+   - Linear for $x > 0$.  
+   - Constant at $0$ for $x \leq 0$.  
+
+2. **Range**:  
+   - Outputs values in $[0, \infty)$.  
+
+3. **Non-linear Activation**:  
+   - Despite being linear for $x > 0$, it introduces non-linearity by zeroing out negative inputs, enabling the network to learn complex mappings.  
+
+4. **Sparse Activation**:  
+   - Only neurons with $x > 0$ are activated, leading to efficient representations.  
+
+5. **Gradient Behavior**:  
+   - Derivative:  
+     $$
+     \frac{d}{dx}\text{ReLU}(x) = 
+     \begin{cases} 
+     1 & x > 0 \\ 
+     0 & x \leq 0 
+     \end{cases}
+     $$
+   - Gradients are preserved for $x > 0$, mitigating the vanishing gradient problem.
+
+---
+
+### **Advantages**  
+1. **Computational Efficiency**:  
+   - Simple to compute: requires only comparison and a max operation.  
+
+2. **Mitigation of [[Vanishing and Exploding Gradient Problem|Vanishing Gradients]]**:  
+   - Unlike sigmoid or tanh, ReLU retains gradients for positive activations, enabling deeper networks to train more effectively.  
+
+3. **Encourages Sparse Representations**:  
+   - Zeroing out negative inputs results in fewer active neurons, improving model interpretability and reducing overfitting.  
+
+---
+
+### **Disadvantages**  
+1. **Dying ReLU Problem**:  
+   - Neurons with $x \leq 0$ produce zero gradients, becoming permanently inactive during training.  
+   - Common in poorly initialized or overly large learning rate scenarios.  
+
+2. **Unbounded Outputs**:  
+   - Can lead to exploding activations, especially in deeper layers if not managed with techniques like normalization.  
+
+3. **Sensitivity to Initialization**:  
+   - Proper weight initialization (e.g., He initialization) is crucial for preventing gradient issues.  
+
+---
 
 **Visualization**:
 ![[A-visual-representation-of-the-paper-folding-metaphor-demonstrating-how-depth-allows.png]]
 
-**Properties**:  
-
-1. **Range**:  
-   $$\text{ReLU}(x) \in [0, \infty)$$  
-
-2. **Non-Linearity**:  
-   ReLU introduces non-linearity to the network, allowing it to approximate non-linear functions.  
-
-3. **Derivative**:  
-   The derivative of ReLU is:  
-   $$\text{ReLU}'(x) = \begin{cases} 
-   1 & \text{if } x > 0, \\ 
-   0 & \text{if } x \leq 0. 
-   \end{cases}$$  
-   Note: At $x = 0$, the derivative is undefined, but it is typically treated as 0 or chosen arbitrarily during training.  
-
-4. **Sparse Activation**:  
-   ReLU outputs $0$ for negative inputs, resulting in sparse activations, which can improve computation efficiency and model interpretability.  
-
-**Advantages**:  
-1. **Computational Efficiency**:  
-   Simple computation compared to other activation functions like sigmoid or tanh.  
-
-2. **Avoids [[Vanishing and Exploding Gradient Problem|Vanishing]] Gradient**:  
-   Unlike sigmoid and tanh, ReLU does not saturate for positive inputs, reducing the likelihood of vanishing gradients.  
-
-3. **Biologically Inspired**:  
-   Resembles activation patterns in biological neurons, which fire only when the input exceeds a certain threshold.  
-
-**Disadvantages**:  
-1. **Dying ReLU Problem**:  
-   Neurons with negative inputs always output 0 and stop contributing to learning, leading to "dead" neurons.  
-
-2. **Unbounded Outputs**:  
-   Large positive inputs can lead to unbounded outputs, which might cause instability in some networks.  
-
-**Variants**:  
-
+---
+### **Variants**  
 1. **Leaky ReLU**:  
-   Allows a small gradient for negative inputs to mitigate the dying ReLU problem:  
-   $$\text{Leaky ReLU}(x) = \begin{cases} 
-   x & \text{if } x > 0, \\ 
-   \alpha x & \text{if } x \leq 0, 
-   \end{cases}$$  
-   where $\alpha \in (0, 1)$ is a small slope (e.g., $\alpha = 0.01$).  
+   - Allows a small negative slope for $x \leq 0$ to prevent dying neurons:  
+    $$
+     \text{Leaky ReLU}(x) = \begin{cases} 
+     x & x > 0 \\ 
+     \alpha x & x \leq 0 
+     \end{cases}
+     $$  
+   - Typical value of $\alpha$ is $0.01$.  
 
 2. **Parametric ReLU (PReLU)**:  
-   Generalizes Leaky ReLU by learning the slope $\alpha$ during training:  
-   $$\text{PReLU}(x) = \begin{cases} 
-   x & \text{if } x > 0, \\ 
-   \alpha x & \text{if } x \leq 0. 
-   \end{cases}$$  
+   - Generalizes Leaky ReLU by making $\alpha$ a learnable parameter.  
 
 3. **Exponential Linear Unit (ELU)**:  
-   Smooths the transition for negative inputs:  
-   $$\text{ELU}(x) = \begin{cases} 
-   x & \text{if } x > 0, \\ 
-   \alpha (e^x - 1) & \text{if } x \leq 0, 
-   \end{cases}$$  
-   where $\alpha > 0$.  
+   - Smooths the transition for $x \leq 0$:  
+    $$
+     \text{ELU}(x) = \begin{cases} 
+     x & x > 0 \\ 
+     \alpha (e^x - 1) & x \leq 0 
+     \end{cases}
+     $$  
+   - Provides non-zero gradients for negative inputs and a bounded range for negative outputs.  
 
 4. **Scaled Exponential Linear Unit (SELU)**:  
-   A self-normalizing activation function that keeps mean and variance stable:  
-   $$\text{SELU}(x) = \lambda \begin{cases} 
-   x & \text{if } x > 0, \\ 
-   \alpha (e^x - 1) & \text{if } x \leq 0. 
-   \end{cases}$$  
+   - A self-normalizing variant designed to maintain a mean and variance close to $0$ and $1$, respectively.  
 
-**Applications**:  
-1. **Deep Neural Networks**:  
-   Widely used in deep learning architectures like convolutional neural networks (CNNs) and fully connected networks.  
+5. **Maxout**:  
+   - Outputs the maximum of multiple linear functions:  
+    $$\text{Maxout}(x) = \max(w_1^T x + b_1, w_2^T x + b_2)$$
+      
+   - Highly flexible but computationally expensive.  
 
-2. **Object Recognition**:  
-   Integral to models for image recognition and classification tasks (e.g., AlexNet, ResNet).  
-
-3. **Reinforcement Learning**:  
-   Often used in deep reinforcement learning models.  
-
-**Comparison to Sigmoid and Tanh**:  
-
-| Property           | ReLU                    | Sigmoid              | Tanh      |
-| ------------------ | ----------------------- | -------------------- | --------- |
-| Range              | $[0, \infty)$           | $(0, 1)$             | $(-1, 1)$ |
-| Non-linearity      | Yes                     | Yes                  | Yes       |
-| Saturation         | For $x \leq 0$          | For large $          | x         |
-| Computational Cost | Low                     | High                 | High      |
-| Gradient Behavior  | Non-vanishing for $x>0$ | Vanishes for large $ | x         |
-
-**Conclusion**:  
-ReLU is the default activation function for most deep learning models due to its simplicity, efficiency, and effectiveness, though variants like Leaky ReLU and ELU are used to address its limitations.

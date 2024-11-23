@@ -1,14 +1,12 @@
 ---
 created: 2024-11-17 18:44
-updated: 2024-11-17 19:39
+updated: 2024-11-21 19:29
 categories:
   - "[[Statistics]]"
   - "[[Probability]]"
   - "[[Definition]]"
   - "[[Data Science]]"
 ---
-**Cross-Entropy**  
-
 **Definition**:  
 Cross-entropy quantifies the difference between two probability distributions $P$ (true distribution) and $Q$ (predicted distribution) over the same set of events $\{x_1, x_2, \dots, x_n\}$. It is defined as:  
 $$H(P, Q) = -\sum_{i=1}^n p_i \log_2 q_i$$  

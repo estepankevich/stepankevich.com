@@ -3,7 +3,7 @@ categories:
   - "[[Linear algebra]]"
   - "[[Theorem]]"
 created: 2024-04-03 20:05
-updated: 2024-11-12 11:22
+updated: 2024-11-21 15:44
 ---
 4 Fundamental Subspaces of $A$ ($m \times n$) with the [[Rank]]$= r$
 1. [[Column Space]] $C(A)$   $dim=r$
@@ -14,5 +14,9 @@ updated: 2024-11-12 11:22
 ## Theorem : 
 Column [[Rank]] equals row [[Rank]]
 
-
+## Observation : 
 Column/row spaces are orthogonal to the corresponding null spaces
+## Visualization :
+![[FundamentalSpaces.png]]
+
+
