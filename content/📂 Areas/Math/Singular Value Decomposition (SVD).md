@@ -3,7 +3,7 @@ categories:
   - "[[Linear algebra]]"
   - "[[Factorization]]"
 created: 2024-11-21 22:36
-updated: 2024-11-23 16:51
+updated: 2024-11-25 23:31
 ---
 **Definition**  
 The Singular Value Decomposition (SVD) of a matrix $A \in \mathbb{R}^{m \times n}$ is a factorization of the form:  
@@ -26,6 +26,8 @@ The SVD of a matrix can be thought of as a sequence of linear transformations:
 1. **Rotation** (via $V$): Aligns the data to principal directions.  
 2. **Stretching/Squashing** (via $\Sigma$): Scales the aligned data along principal directions.  
 3. **Rotation** (via $U$): Maps the scaled data to the target space.
+![[svd-operations.png]]
+
 
 **Key Properties**  
 1. **Singular Values**: The diagonal entries of $\Sigma$ are the singular values $\sigma_1 \geq \sigma_2 \geq \cdots \geq 0$.  

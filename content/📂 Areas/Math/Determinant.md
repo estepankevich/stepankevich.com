@@ -3,7 +3,7 @@ categories:
   - "[[Linear algebra]]"
   - "[[Definition]]"
 created: 2024-11-21 19:43
-updated: 2024-11-23 15:10
+updated: 2024-11-28 00:52
 ---
 **Definition**  
 The determinant of a square [[Matrix]] $A \in \mathbb{R}^{n \times n}$, denoted $\det(A)$ or $|A|$, is a scalar value that encodes certain properties of the matrix, such as whether it is invertible. Formally, for $A = [a_{ij}]$, the determinant is defined recursively:  
@@ -18,7 +18,7 @@ The determinant measures the "scaling factor" of the transformation represented 
 **Key Properties**  
 1. **Invertibility**: $A$ is invertible if and only if $\det(A) \neq 0$.  
 2. **Multiplicative Property**: $\det(AB) = \det(A)\det(B)$.  
-3. **Transposition**: $\det(A^T) = \det(A)$.  
+3. **Transposition**: $\det(A^T) = \det(A)$. 
 4. **Row Operations**:  
    - Swapping two rows changes the sign of the determinant.  
    - Multiplying a row by a scalar $c$ multiplies the determinant by $c$.  
