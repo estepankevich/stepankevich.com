@@ -3,7 +3,7 @@ categories:
   - "[[Linear algebra]]"
   - "[[Definition]]"
 created: 2024-10-30 16:48
-updated: 2024-11-12 11:22
+updated: 2024-11-24 17:40
 ---
 # Equivalent Definitions of the Operator Norm
 

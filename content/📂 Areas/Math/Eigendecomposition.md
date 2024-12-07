@@ -3,7 +3,7 @@ categories:
   - "[[Linear algebra]]"
   - "[[Factorization]]"
 created: 2024-11-21 13:46
-updated: 2024-11-23 16:41
+updated: 2024-11-25 17:49
 ---
 **Definition**  
 Eigendecomposition is the process of decomposing a square matrix $A$ into a product of three matrices:  
@@ -28,7 +28,7 @@ Eigendecomposition represents a transformation $A$ as a scaling operation in the
    - Eigendecomposition is equivalent to diagonalizing $A$ if possible.  
 
 4. **Spectral Theorem**:  
-   - If $A$ is symmetric, then $Q$ is orthogonal ($Q^{-1} = Q^T$), and the decomposition becomes $A = Q \Lambda Q^T$.  
+   - If $A$ is symmetric, then $Q$  is orthogonal ($Q^{-1} = Q^T$), and the decomposition becomes $A = Q \Lambda Q^T$.  
 
 **Applications**  
 1. **[[PCA]]**:  

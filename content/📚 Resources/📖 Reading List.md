@@ -1,6 +1,6 @@
 ---
 created: 2024-11-03 23:34
-updated: 2024-11-23 16:55
+updated: 2024-12-07 13:21
 share: true
 ---
 
@@ -20,6 +20,9 @@ share: true
 | [[Foundations of Computer Vision - Antonio Torralba Phillip Isola William T Freeman\|Foundations of Computer Vision - Antonio Torralba Phillip Isola William T Freeman]] | <ul><li>Computers</li></ul>            | ![[../Other/Attachments/Foundations of Computer Vision - Antonio Torralba Phillip Isola William T Freeman.jpg\|100]] |
 | [[Fractal geometry of nature - Benoit B Mandelbrot\|Fractal geometry of nature - Benoit B Mandelbrot]]                                                                   | Mathematics                            | ![[../Other/Attachments/Pasted image 20241123163757.png\|100]]                                                       |
 | [[Probability Theory - E T Jaynes\|Probability Theory - E T Jaynes]]                                                                                                     | <ul><li>Mathematics</li></ul>          | ![[../Other/Attachments/Probability Theory - E T Jaynes.jpg\|100]]                                                   |
+| [[Matrix Analysis and Applied Linear Algebra - Carl D Meyer\|Matrix Analysis and Applied Linear Algebra - Carl D Meyer]]                                                 | <ul><li>Mathematics</li></ul>          | ![[../Other/Attachments/Matrix Analysis and Applied Linear Algebra - Carl D Meyer.jpg\|100]]                         |
+| [[Numerical Linear Algebra - Lloyd N Trefethen David Bau\|Numerical Linear Algebra - Lloyd N Trefethen David Bau]]                                                       | <ul><li>Mathematics</li></ul>          | ![[../Other/Attachments/Numerical Linear Algebra - Lloyd N Trefethen David Bau.jpg\|100]]                            |
+| [[Convex Optimization - Stephen Boyd Lieven Vandenberghe\|Convex Optimization - Stephen Boyd Lieven Vandenberghe]]                                                       | <ul><li>Mathematics</li></ul>          | ![[../Other/Attachments/Convex Optimization - Stephen Boyd Lieven Vandenberghe.jpg\|100]]                            |
 
 
 ### Completed books

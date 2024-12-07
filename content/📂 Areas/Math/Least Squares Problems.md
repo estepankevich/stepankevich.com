@@ -4,10 +4,8 @@ categories:
   - "[[Real Analysis]]"
   - "[[Method]]"
 created: 2024-11-21 22:33
-updated: 2024-11-22 18:17
+updated: 2024-11-24 22:08
 ---
-### Least Squares Problems
-
 **Definition**  
 The **least squares problem** seeks to minimize the residual error $\|Ax - b\|_2$, where:  
 - $A \in \mathbb{R}^{m \times n}$ is a matrix with $m \geq n$,  
@@ -22,7 +20,7 @@ The least squares solution minimizes the Euclidean distance between $b$ and the 
 **Key Properties**  
 1. **Normal Equations**:  
    The least squares solution satisfies:  
-   $$ A^T A x = A^T b. $$  
+   $$ A^T A x = A^T b. $$
 
 2. **Existence and Uniqueness**:  
    - A unique solution exists if $A^T A$ is invertible (i.e., $A$ has full column rank).  
@@ -47,6 +45,8 @@ The least squares solution minimizes the Euclidean distance between $b$ and the 
 
 4. **Iterative Methods**:  
    - For large systems, iterative solvers like [[Stochastic Gradient Descent (SGD)]] or conjugate gradient are used.  
+5. **[[Nearly Singular Matrix]]**:
+   - Use [[Regularization]] to improve the stability
 
 **Applications**  
 1. **Data Fitting**:  

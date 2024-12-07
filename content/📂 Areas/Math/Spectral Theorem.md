@@ -3,7 +3,7 @@ categories:
   - "[[Linear algebra]]"
   - "[[Theorem]]"
 created: 2024-11-21 18:12
-updated: 2024-11-23 16:41
+updated: 2024-12-07 12:38
 ---
 The **Spectral Theorem** states that for a real [[Symmetric Matrix]] $A \in \mathbb{R}^{n \times n}$ or a complex Hermitian matrix $A \in \mathbb{C}^{n \times n}$, there exists an orthonormal basis of eigenvectors such that $A$ can be diagonalized. Formally:
 $$ A = Q \Lambda Q^T \quad \text{(real symmetric case)} $$
@@ -34,4 +34,4 @@ The Spectral Theorem reveals that symmetric (or Hermitian) matrices are structur
 2. **Quantum Mechanics**: Hermitian operators represent observable quantities, with real eigenvalues corresponding to measurable outcomes.
 3. **[[Optimization]]**: Spectral properties help in solving quadratic forms and determining extrema.
 4. **Graph Theory**: The Laplacian matrix of a graph is symmetric; its eigenvalues and eigenvectors reveal structural properties.
-5. **[[Matrix Functions]]**: Computing functions like $\exp(A)$, $\sin(A)$, and $\sqrt{A}$ using eigenvalues and eigenvectors.
+5. **[[Matrix Function]]**: Computing functions like $\exp(A)$, $\sin(A)$, and $\sqrt{A}$ using eigenvalues and eigenvectors.
