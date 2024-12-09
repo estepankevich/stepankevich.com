@@ -1,18 +1,8 @@
-# Quartz v4
+# My Personal Website
+This repository contains the code for my personal website, built using [Quartz 4](https://quartz.jzhao.xyz/)
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+### About the Content
+In the `/content` directory, you'll find notes from my [Obsidian](https://obsidian.md/) repository that I’ve selected to share publicly
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
-
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
-
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
-
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+### Live Website
+You can visit the live version of the site at [stepankevich.com](https://stepankevich.com)

@@ -57,14 +57,3 @@ QR factorization orthogonalizes the columns of $A$, representing $A$ as a combin
 
 5. **Stability in Numerical Computations**:  
    - QR decomposition is preferred over LU decomposition for certain numerical problems due to better stability.  
-
-**Examples**  
-1. For $A = \begin{bmatrix} 1 & 2 \\ 3 & 4 \\ 5 & 6 \end{bmatrix}$:  
-   Using Gram-Schmidt:  
-   - $Q = \begin{bmatrix} -1/√35 & 2/√5 \\ -3/√35 & 1/√5 \\ -5/√35 & 0 \end{bmatrix}$,  
-   - $R = \begin{bmatrix} √35 & √35 \\ 0 & √5 \end{bmatrix}$.  
-
-2. For $A = \begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix}$:  
-   Using Householder Reflections:  
-   - $Q = \begin{bmatrix} √2/2 & √2/2 \\ √2/2 & -√2/2 \end{bmatrix}$,  
-   - $R = \begin{bmatrix} √2 & 0 \\ 0 & √2 \end{bmatrix}$.  

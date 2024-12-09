@@ -59,7 +59,7 @@ export const defaultContentPageLayout: PageLayout = {
         scale: 2,
         repelForce: 0.08,
         centerForce: 0.9,
-        linkDistance: 200,
+        linkDistance: 100,
         fontSize: 0.4,
         showTags: false,
       },
