@@ -4,7 +4,7 @@ categories:
   - "[[Architecture]]"
   - "[[Deep Learning]]"
 created: 2024-11-17 21:18
-updated: 2024-11-17 21:29
+updated: 2024-12-07 15:33
 aliases:
   - RNN
 ---
@@ -160,5 +160,5 @@ print(output.shape)  # Output shape: [5, 1]
    - Highly parallelizable and better at capturing long-range dependencies.  
    - Used in state-of-the-art models like [[BERT]] and [[GPT]].  
 
-2. **[[Attention Mechanisms]]**:  
+2. **[[Attention Mechanism]]**:  
    - Allow the model to focus on relevant parts of the sequence.  

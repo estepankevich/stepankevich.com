@@ -1,6 +1,6 @@
 ---
 created: 2024-11-11 13:38
-updated: 2024-12-07 13:21
+updated: 2025-01-17 20:24
 share: true
 ---
 ## Definitions 
@@ -71,6 +71,6 @@ share: true
 
 ## Observations
 - [[Free Parameters in an n x m  Matrix of Rank r|Free Parameters in an n x m  Matrix of Rank r]]
-- [[Small Matrix Perturbation|Small Matrix Perturbation]]
 - [[Matrix multiplication order matters|Matrix multiplication order matters]]
+- [[Small Matrix Perturbation|Small Matrix Perturbation]]
 - [[Why So Many Matrices Are of Low Rank|Why So Many Matrices Are of Low Rank]]

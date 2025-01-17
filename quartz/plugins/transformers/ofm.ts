@@ -108,24 +108,29 @@ function canonicalizeCallout(calloutName: string): keyof typeof calloutMapping {
 }
 
 function propertyLinksToRegularMarkdown(obj: { [key: string]: any }): string {
-  // Parses wikilinks from FrontMatter properties and returns a string with all.
-  let result = ""
+  // Parses wikilinks and URLs from FrontMatter properties and returns a string with all.
+  let result = "";
 
   for (const key in obj) {
     if (Object.prototype.hasOwnProperty.call(obj, key)) {
-      if (
-        Array.isArray(obj[key]) &&
-        typeof obj[key][0] === "string" &&
-        obj[key][0].includes("[[")
-      ) {
-        result += `- ${key}: ${obj[key].join(", ")}\n`
-      } else if (typeof obj[key] === "string" && obj[key].includes("[[")) {
-        result += `- ${key}: ${obj[key]}\n`
+      const value = obj[key];
+
+      if (Array.isArray(value)) {
+        // Check if the array contains wikilinks or URLs
+        const links = value.filter(item => typeof item === "string" && (item.includes("[[") || item.startsWith("http")));
+        if (links.length > 0) {
+          result += `- ${key}: ${links.join(", ")}\n`;
+        }
+      } else if (typeof value === "string") {
+        // Check for single wikilink or URL
+        if (value.includes("[[") || value.startsWith("http")) {
+          result += `- ${key}: ${value}\n`;
+        }
       }
     }
   }
 
-  return result
+  return result;
 }
 
 export const externalLinkRegex = /^https?:\/\//i

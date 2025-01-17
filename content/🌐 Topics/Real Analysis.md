@@ -1,6 +1,6 @@
 ---
 created: 2024-11-11 13:38
-updated: 2024-12-07 13:21
+updated: 2025-01-17 20:24
 share: true
 ---
 
@@ -46,8 +46,8 @@ share: true
 - [[Lipschitz condition|Lipschitz condition]]
 - [[Lebesgue Measurable Function|Lebesgue Measurable Function]]
 - [[Convex Function|Convex Function]]
-- [[Lᵖ Norm of a vector|Lᵖ Norm of a vector]]
 - [[Lᵖ Norm of a function|Lᵖ Norm of a function]]
+- [[Lᵖ Norm of a vector|Lᵖ Norm of a vector]]
 - [[Orthogonal Projection in a Hilbert Space|Orthogonal Projection in a Hilbert Space]]
 - [[Jacobian Matrix|Jacobian Matrix]]
 - [[Hessian matrix|Hessian matrix]]

@@ -96,6 +96,10 @@ article > ul:first-child {
     display: block;
 }
 
+article img {
+    background-color: white;
+}
+
 @media all and not ($mobile) {
 .page > #quartz-body .page-header{
     margin-top: 4rem;
