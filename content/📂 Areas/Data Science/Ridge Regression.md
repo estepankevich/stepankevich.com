@@ -3,10 +3,8 @@ categories:
   - "[[Data Science]]"
   - "[[Method]]"
 created: 2024-11-17 19:01
-updated: 2024-11-17 20:35
+updated: 2024-12-13 14:35
 ---
-**Ridge Regression**  
-
 **Definition**:  
 Ridge regression, also called $L_2$ regularized [[Linear Regression]], modifies the ordinary least squares (OLS) objective by adding a [[Regularization]] term to penalize large model coefficients. It addresses multicollinearity and prevents overfitting in linear regression.
 
@@ -47,22 +45,6 @@ The gradient of the ridge loss function is:
 $$\nabla_\beta J(\beta) = -2X^\top (y - X\beta) + 2\lambda \beta$$  
 This can be used in iterative optimization methods when $n$ (number of features) is large.  
 
-**Example**:  
-Given $X = \begin{bmatrix}1 & 1 \\ 1 & 2 \\ 1 & 3\end{bmatrix}$ and $y = \begin{bmatrix}1 \\ 2 \\ 2\end{bmatrix}$, and $\lambda = 1$:  
-1. Compute $X^\top X$:  
-   $$X^\top X = \begin{bmatrix}3 & 6 \\ 6 & 14\end{bmatrix}$$  
-
-2. Add $\lambda I$:  
-   $$X^\top X + \lambda I = \begin{bmatrix}4 & 6 \\ 6 & 15\end{bmatrix}$$  
-
-3. Compute $X^\top y$:  
-   $$X^\top y = \begin{bmatrix}5 \\ 12\end{bmatrix}$$  
-
-4. Solve for $\beta$:  
-   $$\beta = (X^\top X + \lambda I)^{-1} X^\top y$$  
-   $$\beta = \begin{bmatrix}4 & 6 \\ 6 & 15\end{bmatrix}^{-1} \begin{bmatrix}5 \\ 12\end{bmatrix}$$  
-
-   Result: $\beta \approx \begin{bmatrix}0.2 \\ 0.47\end{bmatrix}$.  
 
 **Applications**:  
 - Addressing multicollinearity in linear regression.  

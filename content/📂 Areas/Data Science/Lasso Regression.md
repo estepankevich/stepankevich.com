@@ -3,10 +3,8 @@ categories:
   - "[[Data Science]]"
   - "[[Method]]"
 created: 2024-11-17 19:01
-updated: 2024-11-17 20:34
+updated: 2024-12-13 14:34
 ---
-**Lasso Regression**  
-
 **Definition**:  
 Lasso regression, or **Least Absolute Shrinkage and Selection Operator**, is a linear regression technique that incorporates $L_1$ [[Regularization]]. This regularization adds a penalty proportional to the absolute value of the coefficients, encouraging sparsity in the model.  
 
@@ -40,20 +38,8 @@ Unlike [[Ridge Regression]], Lasso does not have a closed-form solution due to t
 - The $L_1$ penalty forms a diamond-shaped constraint region in coefficient space.  
 - The solution often lies on the boundary, where some coefficients are zero, leading to sparsity.  
 
-**Example**:  
-Given $X = \begin{bmatrix}1 & 1 \\ 1 & 2 \\ 1 & 3\end{bmatrix}$ and $y = \begin{bmatrix}1 \\ 2 \\ 2\end{bmatrix}$, and $\lambda = 0.5$:  
-1. Construct the objective:  
-   $$J(\beta) = \|y - X\beta\|^2 + 0.5(|\beta_1| + |\beta_2|)$$  
 
-2. Solve using an algorithm (e.g., coordinate descent):  
-   - Assume starting values $\beta_1 = \beta_2 = 0$.  
-   - Iteratively optimize each $\beta_i$ while keeping others fixed.  
-
-Result: Coefficients such as $\beta_1 = 0.5$, $\beta_2 = 0.4$ (example solution, computation varies with algorithm).  
-
-
-
-**Comparison with Ridge Regression**:  
+**Comparison with [[Ridge Regression]]**:  
 
 | Property               | Ridge Regression         | Lasso Regression                           |
 | ---------------------- | ------------------------ | ------------------------------------------ |

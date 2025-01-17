@@ -3,7 +3,7 @@ categories:
   - "[[Data Science]]"
   - "[[Method]]"
 created: 2024-11-17 19:01
-updated: 2024-11-17 19:01
+updated: 2024-12-13 14:33
 ---
 **Definition**:  
 Linear regression models the relationship between a dependent variable $y$ and one or more independent variables $X$. For $m$ data points, the model predicts:  
@@ -36,7 +36,7 @@ $$\beta = (X^\top X)^{-1} X^\top y$$
 
 4. Set $\nabla_\beta J(\beta) = 0$:  
    $$-2X^\top y + 2X^\top X\beta = 0$$  
-   $$X^\top X\beta = X^\top y$$  
+   $$X^\top X\beta = X^\top y$$
 
 **Key Properties**:  
 1. **Existence of Solution**:  
@@ -48,18 +48,3 @@ $$\beta = (X^\top X)^{-1} X^\top y$$
 
 3. **Computational Complexity**:  
    Solving via the normal equations involves matrix inversion, with complexity $O(n^3)$. Gradient-based methods or QR decomposition can be more efficient for large $n$.  
-
-**Example**:  
-Given $X = \begin{bmatrix}1 & 1 \\ 1 & 2 \\ 1 & 3\end{bmatrix}$ and $y = \begin{bmatrix}1 \\ 2 \\ 2\end{bmatrix}$:  
-1. Compute $X^\top X$:  
-   $$X^\top X = \begin{bmatrix}3 & 6 \\ 6 & 14\end{bmatrix}$$  
-
-2. Compute $X^\top y$:  
-   $$X^\top y = \begin{bmatrix}5 \\ 12\end{bmatrix}$$  
-
-3. Solve for $\beta$:  
-   $$\beta = (X^\top X)^{-1} X^\top y = \begin{bmatrix}3 & 6 \\ 6 & 14\end{bmatrix}^{-1} \begin{bmatrix}5 \\ 12\end{bmatrix}$$  
-
-   $$\beta = \begin{bmatrix}0 \\ 0.5\end{bmatrix}$$  
-
-Result: $\hat{y} = 0 + 0.5x$.

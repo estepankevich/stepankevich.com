@@ -3,7 +3,7 @@ categories:
   - "[[Linear algebra]]"
   - "[[Factorization]]"
 created: 2024-11-21 13:46
-updated: 2024-11-25 15:11
+updated: 2024-12-07 13:45
 ---
 **Definition**  
 QR Factorization is the decomposition of a [[Matrix]] $A \in \mathbb{R}^{m \times n}$ (with $m \geq n$) into the product of two matrices:  

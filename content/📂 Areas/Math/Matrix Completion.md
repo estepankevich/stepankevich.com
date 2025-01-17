@@ -4,8 +4,9 @@ categories:
   - "[[Method]]"
   - "[[Problem]]"
 created: 2024-11-26 15:52
-updated: 2024-12-07 12:33
+updated: 2024-12-07 13:27
 ---
+
 ### **Definition**
 **Matrix completion** is the problem of recovering a full matrix from a subset of its observed entries. The task is to fill in the missing entries of a matrix while satisfying certain assumptions, such as low rank or sparsity.
 
