@@ -2,9 +2,8 @@
 categories:
   - "[[Code]]"
   - "[[Interview Question]]"
-  - "[[DataDog]]"
 created: 2024-12-19 16:02
-updated: 2024-12-26 14:42
+updated: 2025-02-20 21:58
 source: https://leetcode.com/discuss/interview-question/2639509/DataDog-Interview-Question
 ---
 ```python

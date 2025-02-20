@@ -10,8 +10,9 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      "GitHub": "https://github.com/estepankevich",
       "LinkedIn": "https://linkedin.com/in/estepankevich",
+      "GitHub": "https://github.com/estepankevich",
+      "LeetCode": "https://leetcode.com/u/estepankevich/",
       "Scroll to top ↑": "#"
     },
   }),
